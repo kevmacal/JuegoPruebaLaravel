@@ -98,5 +98,6 @@
                 </div>
             </div>
         </div>
+        <script src="./js/prueba.js"></script>
     </body>
 </html>
