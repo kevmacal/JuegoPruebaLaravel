@@ -98,6 +98,7 @@
                 </div>
             </div>
         </div>
+        <script src="./js/display.js"></script>
         <script src="./js/buclePrincipal.js"></script>
         <script src="./js/prueba.js"></script>
     </body>

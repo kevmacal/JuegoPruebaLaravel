@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', function(){
 var prueba ={
     iniciarJuego: function(){
         console.log("¡Juego Iniciado!");
+        size.start();
         buclePrincipal.iterar();
     },
 };
