@@ -97,7 +97,10 @@
                     <a href="https://github.com/laravel/laravel">GitHub</a>
                 </div>
             </div>
+            <div id="game">
+            </div>
         </div>
+        <script src="./js/rect.js"></script>
         <script src="./js/display.js"></script>
         <script src="./js/buclePrincipal.js"></script>
         <script src="./js/prueba.js"></script>
