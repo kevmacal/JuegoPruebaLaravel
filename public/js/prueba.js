@@ -8,7 +8,18 @@ var prueba ={
     iniciarJuego: function(){
         console.log("¡Juego Iniciado!");
         size.start();
-        var r = new rectangulo(320,512,160,80);
+        prueba.rellenarTiles();
+        keyboard.iniciar();
         buclePrincipal.iterar();
+    },
+    rellenarTiles: function(){        
+        var x;
+        var y;
+        document.getElementById("game").innerHTML="";
+        for(y=0; y<size.obtenerTilesVerticales(); y++){
+            for(x=0; x<size.obtenerTilesHorizontales(); x++){
+                var r = new rectangulo(x*size.ladoTiles, (y*size.ladoTiles)+440, size.ladoTiles, size.ladoTiles);
+            }
+        }
     },
 };

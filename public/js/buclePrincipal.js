@@ -23,6 +23,7 @@ var buclePrincipal = {
     detener: function(){
     },
     actualizar: function(registroTemporal){
+        keyboard.reset();
         buclePrincipal.aps=buclePrincipal.aps+1;        
     },
     dibujar: function(registroTemporal){
