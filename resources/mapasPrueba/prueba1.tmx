@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.3.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="20" height="20" tilewidth="15" tileheight="15" infinite="0" nextlayerid="13" nextobjectid="19">
+ <tileset firstgid="1" source="overworld_tileset_grass.tsx"/>
+ <layer id="9" name="Tile Layer 1" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eAGtlLtOQkEURa+/INIqtoqFWmKPsdUfkP8SBWl4qDS+wEbxQaXyR6yduJPJhKsDUqzsc88cVg6XCZUsyw6g8k/kENUfDskUjpk7gTjl0eedqjX3F7EnfrZPnpWAM+o6nMMFNKAJl9CCT/iCb5iAPU7tF/raPHegCz24gmu4gT6sQgHWoAj2OOP9bpm5g3t4gEcYwBCeYB02oASbYI8z3u+ZmRcYwSu8wTt8wBi2YBvKsAP2OOP9wu+eUtvjXKbPzpQ98mbsUPoO5c2m9O2Ta5k+ee1O2SNvxg7t5jpvNqVvhzO+fymOcMYep+7LLuzBflD/1gvP7FG6PqWuwdEC2OH3p2f9p/p/cd70HfF+oddnYc9zSvV95ln19Rv4bFbqnc7q2+EzzymnUWpZcQ==
+  </data>
+ </layer>
+ <objectgroup color="#aa0000" id="11" name="Stop">
+  <object id="4" x="9.34903" y="27.0083" width="33.241" height="256.06"/>
+  <object id="5" x="47.2645" y="228.532" width="220.741" height="71.6759"/>
+  <object id="6" x="271.122" y="19.7368" width="29.0859" height="228.012"/>
+  <object id="8" x="42.0706" y="3.63573" width="223.857" height="36.3573"/>
+  <object id="9" x="91.9321" y="46.7452" width="27.0083" height="58.1717"/>
+  <object id="10" x="138.158" y="48.3033" width="24.9307" height="54.0166"/>
+  <object id="11" x="119.46" y="44.6676" width="18.6981" height="33.241"/>
+  <object id="12" x="165.166" y="44.6676" width="43.1094" height="48.8227"/>
+  <object id="13" x="212.431" y="43.6288" width="47.7839" height="8.82964"/>
+  <object id="14" x="213.47" y="54.0166" width="4.67452" height="6.75208"/>
+  <object id="15" x="237.881" y="55.0554" width="4.67452" height="5.7133"/>
+  <object id="16" x="256.579" y="55.5748" width="13.5042" height="9.86842"/>
+  <object id="17" x="91.4127" y="176.593" width="28.5665" height="15.5817"/>
+ </objectgroup>
+ <objectgroup id="10" name="Object Layer 1">
+  <object id="1" gid="152" x="90.126" y="197.616" width="15" height="15"/>
+  <object id="2" gid="153" x="105.708" y="197.616" width="15" height="15"/>
+ </objectgroup>
+ <objectgroup color="#00ff00" id="12" name="City">
+  <object id="18" x="121.018" y="79.4668" width="15.0623" height="13.5042"/>
+ </objectgroup>
+</map>

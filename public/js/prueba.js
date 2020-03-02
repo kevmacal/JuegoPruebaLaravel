@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', function(){
 var prueba ={
     iniciarJuego: function(){
         console.log("¡Juego Iniciado!");
+        ajax.cargarArchivo("../resources/mapasPrueba/prueba1.json");
         size.start();
         prueba.rellenarTiles();
         keyboard.iniciar();

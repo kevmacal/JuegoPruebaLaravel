@@ -100,6 +100,7 @@
             <div id="game">
             </div>
         </div>
+        <script src="./js/ajax.js"></script>
         <script src="./js/keyboard.js"></script>
         <script src="./js/rect.js"></script>
         <script src="./js/display.js"></script>
