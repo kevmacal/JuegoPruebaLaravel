@@ -100,11 +100,8 @@
             <div id="game">
             </div>
         </div>
-        <script src="./js/ajax.js"></script>
-        <script src="./js/keyboard.js"></script>
-        <script src="./js/rect.js"></script>
-        <script src="./js/display.js"></script>
-        <script src="./js/buclePrincipal.js"></script>
-        <script src="./js/prueba.js"></script>
+        <?php
+            include_once '../app/Providers/LoadJS.inc.php';
+        ?>
     </body>
 </html>
