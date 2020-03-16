@@ -6,7 +6,7 @@ function paletaSprite(dataSprite){
     this.widthSprite = parseInt(dataSprite.tilewidth);
     this.heightSprite = parseInt(dataSprite.tileheight);
 
-    this.firstSprite = parseInt(dataSprite.firstgid);
+    this.firstSprite = parseInt(dataSprite.firstgid); //Aqui el primero es en 1, la programacion es en 0
     this.anchoImagenInSprite =  this.widthImage/this.widthSprite;
     this.altoImagenInSprite =  this.heightImage/this.heightSprite;
 
