@@ -15,7 +15,7 @@ function paletaSprite(dataSprite){
 
     for(s=0;this.totalSprites;s++){
         var idActual=this.firstSprite-1+s;
-        this.sprites.push(new sprite(this.rutaImagen, idActual));
+        this.sprites.push(new sprite(this.rutaImagen, idActual, this.obtenerPosicionDesdeIdSprite(idActual)));
     }
 }
 
